@@ -1,0 +1,8 @@
+# server: oyuncunun client diline göre, yoksa fallback tr
+# tr: hep Türkçe
+# en: hep İngilizce
+language: server
+welcome:
+  fade-in: 10    # tick cinsinden
+  stay: 70
+  fade-out: 20

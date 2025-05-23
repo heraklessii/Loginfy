@@ -1,0 +1,48 @@
+# Register
+register:
+  usage: "&cUsage: /register <password> <passwordRepeat>"
+  success: "&aRegistered successfully! Now use /login to join."
+  already: "&eYou are already registered! Use /login."
+  mismatch: "&cPasswords do not match."
+  onlyPlayer: "Only players can register."
+
+# Login
+login:
+  usage: "&cUsage: /login <password>"
+  success: "&aLogin successful! Enjoy the game."
+  notRegistered: "&cYou are not registered. Use /register first."
+  wrongPassword: "&cWrong password."
+  already: "&eYou are already logged in."
+  onlyPlayer: "Only players can login."
+
+# Change password
+changepass:
+  usage: "&cUsage: /changepass <old> <new> <newRepeat>"
+  success: "&aPassword changed successfully!"
+  notLoggedIn: "&cYou must login first to change password."
+  mismatch: "&cNew passwords do not match."
+  wrongOld: "&cOld password is incorrect."
+  onlyPlayer: "Only players can change password."
+
+# Admin registeruser
+registeruser:
+  usage: "&cUsage: /registeruser <playerName> <password>"
+  noPerm: "&cYou do not have permission to use this."
+  already: "&e{player} is already registered."
+  success: "&a{player} has been registered successfully!"
+
+# Login enforcement
+mustLogin:
+  chat: "&cYou cannot chat without logging in. /login <password>"
+  cmd: "&cYou cannot run this command without logging in."
+
+autologin:
+  success: "&aAuto-login successful (IP matched). Enjoy the game!"
+  fail: "&eAuto-login failed. Please use /login <password>."
+  notRegistered: "&cYou are not registered. Please use /register <password> <repeat>."
+
+# Welcome
+welcome:
+  title: "&6Welcome to the server, {player}!"
+  subtitle: "&eHave fun!"
+

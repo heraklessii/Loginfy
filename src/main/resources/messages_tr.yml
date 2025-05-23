@@ -1,0 +1,47 @@
+# Kayıt
+register:
+  usage: "&cKullanım: /register <şifre> <şifreTekrar>"
+  success: "&aBaşarıyla kayıt oldun! Şimdi /login ile giriş yapabilirsin."
+  already: "&eZaten kayıtlısın! /login ile giriş yap."
+  mismatch: "&cŞifreler uyuşmuyor."
+  onlyPlayer: "Sadece oyuncular kayıt olabilir."
+
+# Giriş
+login:
+  usage: "&cKullanım: /login <şifre>"
+  success: "&aGiriş başarılı! İyi oyunlar."
+  notRegistered: "&cKayıtlı değilsin. /register ile kaydol."
+  wrongPassword: "&cŞifre yanlış."
+  already: "&eZaten giriş yaptın."
+  onlyPlayer: "Sadece oyuncular giriş yapabilir."
+
+# Şifre değişimi
+changepass:
+  usage: "&cKullanım: /changepass <eski> <yeni> <yenitekrar>"
+  success: "&aŞifren başarıyla değiştirildi!"
+  notLoggedIn: "&cŞifre değiştirmek için önce giriş yapmalısın."
+  mismatch: "&cYeni şifreler uyuşmuyor."
+  wrongOld: "&cEski şifren yanlış."
+  onlyPlayer: "Sadece oyuncular şifre değiştirebilir."
+
+# Admin registeruser
+registeruser:
+  usage: "&cKullanım: /registeruser <oyuncuAdı> <şifre>"
+  noPerm: "&cBu komutu kullanmak için yetkin yok."
+  already: "&e{player} zaten kayıtlı."
+  success: "&a{player} başarıyla kaydedildi!"
+
+# Giriş kontrol uyarıları
+mustLogin:
+  chat: "&cGiriş yapmadan sohbet edemezsin. /login <şifre>"
+  cmd: "&cGiriş yapmadan bu komutu kullanamazsın."
+
+autologin:
+  success: "&aOtomatik giriş yapıldı (IP eşleşmesi). İyi oyunlar!"
+  fail: "&eOtomatik giriş yapılamadı. Lütfen /login <şifre> kullan."
+  notRegistered: "&cKayıtlı değilsin. Lütfen /register <şifre> <şifreTekrar> kullan."
+
+# Welcome
+welcome:
+  title: "&6Sunucuya &aHoş geldin, {player}!"
+  subtitle: "&eİyi oyunlar!"

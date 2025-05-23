@@ -1,0 +1,16 @@
+name: Loginfy
+version: 1.0
+main: com.loginfy.plugin.Loginfy
+api-version: 1.21
+commands:
+  register:
+  login:
+  changepass:
+  registeruser:
+    description: Başka bir oyuncuyu kayıt eder (sadece yetkililer).
+    usage: /registeruser <oyuncuAdı> <şifre>
+    permission: loginfy.admin
+    permission-message: Bu komutu kullanmak için yetkin yok.
+permissions:
+  loginfy.admin:
+    default: op
